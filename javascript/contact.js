@@ -1,0 +1,1 @@
+!function(){var n=["Hola!","Hej!","مرحبا","Hello!","你好!"],t=0;setInterval((function(){$("#changingword").fadeOut((function(){$(this).html(n[t=(t+1)%n.length]).fadeIn()}))}),3e3)}(),AOS.init({duration:1200});
